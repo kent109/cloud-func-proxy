@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@netlify/functions": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6"
   }
 }
