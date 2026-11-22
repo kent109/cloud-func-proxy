@@ -26,3 +26,6 @@ Desktop.ini
 *~
 *.tmp
 .screenshots/
+
+# Local Netlify folder
+.netlify

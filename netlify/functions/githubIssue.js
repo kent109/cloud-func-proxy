@@ -43,8 +43,8 @@ function response(statusCode, obj) {
 /**
  * 云函数入口
  */
-exports.main_handler = async (event, context) => {
-  console.log('start main_handler');
+exports.handler = async (event, context) => {
+  console.log('start handler');
 
   // 1. 获取 HTTP 方法（httpMethod 在 event 顶层）
   const httpMethod = (event && event.httpMethod) || '';
